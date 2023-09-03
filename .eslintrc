@@ -98,14 +98,14 @@
         "react",
         "unused-imports",
         "tailwindcss",
-        "simple-import-sort"
+        "simple-import-sort",
+        "prettier-plugin-astro"
       ],
       "extends": [
         "plugin:tailwindcss/recommended",
-        "airbnb-typescript",
-        "plugin:prettier/recommended"
+        "airbnb-typescript"
       ],
-      "parser": "astro-eslint-parser",
+      "parser": "astro",
       "parserOptions": {
         "parser": "@typescript-eslint/parser",
         "project": "./tsconfig.json",
